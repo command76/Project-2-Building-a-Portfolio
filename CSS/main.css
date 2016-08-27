@@ -1,0 +1,65 @@
+/**   {
+    border-style: solid;
+}*/
+
+.logo   {
+    width: 100px;
+    /*position: absolute;
+    float: top;*/
+}
+
+.title {
+    text-align: right;
+/*    margin: 0px;*/
+}
+
+.contentbox {
+    padding: 20px;
+}
+
+.contenttitle   {
+    text-align: center;
+    font-size: 2em;
+    display: block;
+}
+
+.center {
+    margin: 0px auto;
+    display: block;
+}
+
+.borderbottom   {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(151,150,150);
+}
+
+.centertext {
+    text-align: center;
+}
+
+.imgresponsive  {
+    width: 100%;
+}
+
+@media screen and (max-width: 1199px)   {
+    .webdesign  {
+        width: 75%;
+    }
+    .graphicdesign  {
+        width: 75%;
+    }
+    .webdeveloping  {
+        width: 75%;
+    }
+}
+
+.social {
+    display: inline-block;
+    margin: 0px auto;
+}
+
+/*body    {
+    background-image: url(images/bg.png);
+    background-color: silver;
+}*/

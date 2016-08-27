@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="CSS/main.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+    <header class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img class="logo" src="images/logo.svg" alt="main logo">
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-4">
+                <h1 class="title">Anthony Taveras</h1>
+                <h3 class="title">Full Stack Web Developer</h3>
+            </div>
+            <div class="col-md-12">
+                <hr style="border-width: 10px">
+            </div>
+            <div class="col-md-12">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="images/banner.jpg" type="image/jpeg">
+                    <source media="(max-width: 450px)" srcset="images/banner_400w.jpg" type="image/jpeg">
+                    <img class="imgresponsive" src="images/banner_800w.jpg" alt="page banner">
+                </picture>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="row">
+            <div class="col-md-12">
+                <h2 class="margin">Featured Work</h2>
+            </div>
+        </section>
+        <section class="row borderbottom">
+            <div class="col-md-4 contentbox">
+                <img class="center webdesign" src="images/webdesign.png" data-toggle="modal" data-target="#WebDesign" alt="web design">
+                <h2 class="contenttitle">Web Design</h2>
+                <p class="centertext">Future Projects...</p>
+            </div>
+            <div class="col-md-4 contentbox">
+                <img class="center webdeveloping" src="images/webdeveloping.png" data-toggle="modal" data-target="#WebDeveloping" alt="web developing">
+                <h2 class="contenttitle">Web Developing</h2>
+                <p class="centertext">Future Projects...</p>
+            </div>
+            <div class="col-md-4 contentbox">
+                <img class="center graphicdesign" src="images/graphicdesign.png" data-toggle="modal" data-target="#GraphicDesign" alt="graphic design">
+                <h2 class="contenttitle">Graphic Design</h2>
+                <p class="centertext">Future Projects...</p>
+            </div>
+        </section>
+    </main>
+    <footer class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="centertext">
+                        <i class="fa fa-linkedin-square fa-2x contentbox" aria-hidden="true"> Linked In</i>
+                        <i class="fa fa-stack-overflow fa-2x contentbox" aria-hidden="true"> Stack Overflow</i>
+                        <i class="fa fa-github fa-2x contentbox" aria-hidden="true"> Git Hub</i>
+                        <i class="fa fa-envelope-o fa-2x contentbox" aria-hidden="true"> Contact Me</i>
+                        <i class="fa fa-user fa-2x contentbox" aria-hidden="true"> About Me</i>
+                    </p>
+                </div>
+            </div>
+        </footer>
+ <!-- Modal -->
+    <div class="modal fade" id="WebDesign" tabindex="-1" role="dialog" aria-labelledby="webdesignmodal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title centertext" id="webdesignmodal">Web Design</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="center" src="images/webdesign.png" alt="web design">
+                    <p class="centertext">One of my career goals is to start working towards a career in web design and to become a respected web designer.  Right now I don't have much experience or much work to build a porfolio that I can show off proudly.  I hope that in due time I will build a solid portfolio one that will win over clients and allow me to have a successful career as a web designer.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- Modal -->
+    <div class="modal fade" id="WebDeveloping" tabindex="-1" role="dialog" aria-labelledby="webdevelopingmodel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title centertext" id="webdevelopingmodel">Web Developing</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="center" src="images/webdeveloping.png" alt="web developing">
+                    <p class="centertext">I would like to be a web developer as I like playing with code and look forward to continuing development as a coder and web developer.  It is my primary career goal all other goals are secondary to becoming a web developer.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!-- Modal -->
+    <div class="modal fade" id="GraphicDesign" tabindex="-1" role="dialog" aria-labelledby="graphicdesignmodal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title centertext" id="graphicdesignmodal">Graphic Design</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="center" src="images/graphicdesign.png" alt="graphic design">
+                    <p class="centertext">I would like to be a graphic designer.  I feel I am creative and have a passion for the arts.  Its something I would like to freelance and work on independently.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
